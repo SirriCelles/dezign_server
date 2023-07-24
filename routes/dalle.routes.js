@@ -19,7 +19,7 @@ router.route('/')
     res.status(200).json({ message: "Hello from DALLE.E"})
   })
 
-  router.route
+  router.route('/')
     .post( async (req, res) => {
       try {
         const { prompt } = req.body;
